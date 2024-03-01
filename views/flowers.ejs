@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <h2 class="p-3">Flowers</h2>
+  <div class="container">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Id</th>
+          <th scope="col">Name</th>
+          <th scope="col">Color</th>
+          <th scope="col">Petals Number</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% flowers.forEach(function(flower) { %>
+        <tr>
+          <td><%= flower.id %></td>
+          <td><%= flower.name %></td>
+          <td><%= flower.color %></td>
+          <td><%= flower.petalsNumber %></td>
+        </tr>
+        <% }); %>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
