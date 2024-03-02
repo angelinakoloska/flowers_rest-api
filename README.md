@@ -1,4 +1,4 @@
 # Flower REST-API
 
 ## Description
-This is a simple flower store API built using Node.js, Sequelize and MySQL
+School task to create a simple Express application, with Sequelize and MySQL.
